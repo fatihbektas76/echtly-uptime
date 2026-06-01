@@ -18,3 +18,11 @@ jobs:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          branch: gh-pages
+          folder: __sapper__/export
+          clean: true
+          commit-message: ":card_file_box: Deploy status page"
