@@ -1,0 +1,64 @@
+# Upptime Konfiguration für echtly (sign.echtly.de)
+# https://upptime.js.org
+
+owner: fatihbektas76
+repo: echtly-uptime
+
+sites:
+  - name: echtly Hauptseite (Marketing)
+    url: https://sign.echtly.de/
+    expectedStatusCodes:
+      - 200
+  - name: echtly Health-Endpoint
+    url: https://sign.echtly.de/api/health
+    expectedStatusCodes:
+      - 200
+  - name: echtly API-Dokumentation
+    url: https://sign.echtly.de/api-docs
+    expectedStatusCodes:
+      - 200
+  - name: echtly Login
+    url: https://sign.echtly.de/login
+    expectedStatusCodes:
+      - 200
+  - name: echtly Impressum
+    url: https://sign.echtly.de/impressum
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: ""
+  logoUrl: ""
+  name: echtly Status
+  introTitle: "**echtly Status**"
+  introMessage: |
+    Aktueller Betriebsstatus der Plattform sign.echtly.de.
+    Checks laufen alle 5 Minuten von GitHub Actions aus.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/fatihbektas76/echtly-uptime
+    - title: echtly
+      href: https://sign.echtly.de
+  theme: light
+  i18n:
+    activeIncidents: Aktuelle Störungen
+    allSystemsOperational: Alle Systeme funktionsfähig
+    incidents: Vorfälle
+    overallUptime: Gesamtverfügbarkeit
+    averageResponseTime: Durchschnittliche Antwortzeit
+    footer: Powered by [Upptime](https://upptime.js.org)
+
+assignees:
+  - fatihbektas76
+
+notifications: []
+
+skipDescriptionUpdate: true
+commitMessages:
+  readmeContent: ":pencil: Update README"
+  summaryJson: ":card_file_box: Update Status Summary"
+  statusChange: "$EMOJI $SITE_NAME ist $STATUS"
+  commitAuthorName: Upptime Bot
+  commitAuthorEmail: 73812536+upptime-bot@users.noreply.github.com

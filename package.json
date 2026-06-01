@@ -1,0 +1,7 @@
+{
+  "name": "echtly-uptime",
+  "version": "1.0.0",
+  "description": "Uptime-Monitor und Status-Page für sign.echtly.de (powered by Upptime)",
+  "private": true,
+  "license": "MIT"
+}

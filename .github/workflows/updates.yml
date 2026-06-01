@@ -1,0 +1,15 @@
+name: Updates CI
+on:
+  repository_dispatch:
+    types: [updates]
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: upptime/updates@master
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
