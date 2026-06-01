@@ -9,6 +9,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
       - uses: upptime/uptime-monitor@master
         with:
           command: "setup"
