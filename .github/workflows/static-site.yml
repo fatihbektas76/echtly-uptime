@@ -21,6 +21,25 @@ jobs:
       # upptime/uptime-monitor builds the static site under ./site/__sapper__/export
       # (the action creates a `site/` workspace next to the repo root). The JamesIves
       # action then pushes that folder to the gh-pages branch.
+      - name: Override default Upptime favicon with echtly icon
+        run: |
+          ICON_URL='https://sign.echtly.de/icon.svg'
+          INDEX=site/__sapper__/export/index.html
+          sed -i "s|https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg|${ICON_URL}|g" "$INDEX"
+          sed -i "s|<link href=/logo-192.png rel=icon type=image/png>||g" "$INDEX"
+          cat > site/__sapper__/export/manifest.json <<JSON
+          {
+            "background_color": "#ffffff",
+            "theme_color": "#333333",
+            "name": "echtly Status",
+            "short_name": "echtly",
+            "display": "minimal-ui",
+            "start_url": "/echtly-uptime/",
+            "icons": [
+              { "src": "${ICON_URL}", "sizes": "any", "type": "image/svg+xml" }
+            ]
+          }
+          JSON
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
