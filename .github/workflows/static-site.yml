@@ -18,11 +18,28 @@ jobs:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Locate build output
+        id: find
+        run: |
+          set -e
+          echo "--- workspace ---"
+          ls -la
+          echo "--- looking for sapper export ---"
+          FOUND=$(find / -path /proc -prune -o -name "index.html" -print 2>/dev/null | xargs -r grep -l "upptime" 2>/dev/null | head -1 || true)
+          if [ -z "$FOUND" ]; then
+            FOUND=$(find / -path /proc -prune -o -type d -name "export" -print 2>/dev/null | grep sapper | head -1 || true)
+          fi
+          echo "found: $FOUND"
+          if [ -n "$FOUND" ]; then
+            DIR=$(dirname "$FOUND")
+            [ -d "$DIR" ] && echo "dir=$DIR" >> "$GITHUB_OUTPUT" || echo "dir=$FOUND" >> "$GITHUB_OUTPUT"
+          fi
       - name: Deploy to gh-pages
+        if: steps.find.outputs.dir != ''
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GH_PAT }}
           branch: gh-pages
-          folder: __sapper__/export
+          folder: ${{ steps.find.outputs.dir }}
           clean: true
           commit-message: ":card_file_box: Deploy status page"
