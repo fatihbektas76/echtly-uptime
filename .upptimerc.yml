@@ -28,6 +28,7 @@ sites:
 
 status-website:
   cname: ""
+  baseUrl: "/echtly-uptime"
   logoUrl: ""
   name: echtly Status
   introTitle: "**echtly Status**"
