@@ -1,20 +1,11 @@
 {
   "background_color": "#ffffff",
   "theme_color": "#333333",
-  "name": "Upptime",
-  "short_name": "Upptime",
+  "name": "echtly Status",
+  "short_name": "echtly",
   "display": "minimal-ui",
-  "start_url": "/",
+  "start_url": "/echtly-uptime/",
   "icons": [
-    {
-      "src": "logo-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "logo-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "https://sign.echtly.de/icon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }
