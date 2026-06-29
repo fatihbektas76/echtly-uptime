@@ -1,7 +1,7 @@
 url: https://sign.echtly.de/login
-status: up
-code: 200
-responseTime: 482
-lastUpdated: 2026-06-29T03:53:08.677Z
+status: down
+code: 502
+responseTime: 410
+lastUpdated: 2026-06-29T18:20:23.785Z
 startTime: 2026-06-01T00:39:12.021Z
 generator: Upptime <https://github.com/upptime/upptime>
