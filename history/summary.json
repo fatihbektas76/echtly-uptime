@@ -4,19 +4,19 @@
     "url": "https://sign.echtly.de/",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "echtly-hauptseite-marketing",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.71%",
+    "uptimeDay": "91.72%",
+    "uptimeWeek": "98.82%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.71%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-29": 1
+      "2026-06-29": 119
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://sign.echtly.de/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "echtly-health-endpoint",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.71%",
+    "uptimeDay": "91.74%",
+    "uptimeWeek": "98.82%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.71%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-29": 1
+      "2026-06-29": 119
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://sign.echtly.de/api-docs",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "echtly-api-dokumentation",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.71%",
+    "uptimeDay": "91.75%",
+    "uptimeWeek": "98.82%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.71%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-29": 1
+      "2026-06-29": 119
     }
   },
   {
@@ -64,19 +64,19 @@
     "url": "https://sign.echtly.de/login",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "echtly-login",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.71%",
+    "uptimeDay": "91.77%",
+    "uptimeWeek": "98.82%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.71%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-29": 0
+      "2026-06-29": 119
     }
   },
   {
@@ -84,19 +84,19 @@
     "url": "https://sign.echtly.de/impressum",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "echtly-impressum",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.71%",
+    "uptimeDay": "91.78%",
+    "uptimeWeek": "98.83%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.71%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-29": 0
+      "2026-06-29": 118
     }
   }
 ]
