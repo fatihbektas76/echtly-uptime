@@ -54,7 +54,14 @@ status-website:
 assignees:
   - fatihbektas76
 
-notifications: []
+notifications:
+  - type: email
+    smtpHost: $NOTIFICATION_EMAIL_SMTP
+    smtpPort: 587
+    smtpUsername: $NOTIFICATION_EMAIL_SMTP_USERNAME
+    smtpPassword: $NOTIFICATION_EMAIL_SMTP_PASSWORD
+    to: $NOTIFICATION_EMAIL_TO
+    from: $NOTIFICATION_EMAIL_FROM
 
 skipDescriptionUpdate: true
 commitMessages:
