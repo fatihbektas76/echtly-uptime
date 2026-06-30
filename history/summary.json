@@ -101,22 +101,22 @@
   },
   {
     "name": "TEST-PROBE-V2 (Notification-Test)",
-    "url": "https://sign.echtly.de/probe-404-2026-07-01",
+    "url": "https://sign.echtly.de/",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "test-probe-v2-notification-test",
-    "status": "down",
-    "uptime": "95.11%",
-    "uptimeDay": "95.11%",
-    "uptimeWeek": "95.11%",
-    "uptimeMonth": "95.11%",
-    "uptimeYear": "95.11%",
+    "status": "up",
+    "uptime": "29.11%",
+    "uptimeDay": "29.11%",
+    "uptimeWeek": "29.11%",
+    "uptimeMonth": "29.11%",
+    "uptimeYear": "29.11%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-30": 0
+      "2026-06-30": 4
     }
   }
 ]
