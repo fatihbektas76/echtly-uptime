@@ -98,5 +98,23 @@
     "dailyMinutesDown": {
       "2026-06-29": 118
     }
+  },
+  {
+    "name": "TEST-PROBE (wird gleich wieder entfernt)",
+    "url": "https://sign.echtly.de/notification-probe-2026-06-30",
+    "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
+    "slug": "test-probe-wird-gleich-wieder-entfernt",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
   }
 ]
