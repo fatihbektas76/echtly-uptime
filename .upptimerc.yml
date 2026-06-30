@@ -25,6 +25,10 @@ sites:
     url: https://sign.echtly.de/impressum
     expectedStatusCodes:
       - 200
+  - name: TEST-PROBE-V2 (Notification-Test)
+    url: https://sign.echtly.de/
+    expectedStatusCodes:
+      - 200
 
 status-website:
   cname: ""
