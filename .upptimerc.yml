@@ -6,7 +6,7 @@ repo: echtly-uptime
 
 sites:
   - name: echtly Hauptseite (Marketing)
-    url: https://sign.echtly.de/notification-probe-2026-06-30
+    url: https://sign.echtly.de/
     expectedStatusCodes:
       - 200
   - name: echtly Health-Endpoint
