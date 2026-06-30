@@ -85,11 +85,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
     "slug": "echtly-impressum",
     "status": "up",
-    "uptime": "99.72%",
+    "uptime": "99.73%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "98.83%",
-    "uptimeMonth": "99.72%",
-    "uptimeYear": "99.72%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -100,23 +100,21 @@
     }
   },
   {
-    "name": "TEST-PROBE (wird gleich wieder entfernt)",
-    "url": "https://sign.echtly.de/notification-probe-2026-06-30",
+    "name": "TEST-PROBE-V2 (Notification-Test)",
+    "url": "https://sign.echtly.de/",
     "icon": "https://icons.duckduckgo.com/ip3/sign.echtly.de.ico",
-    "slug": "test-probe-wird-gleich-wieder-entfernt",
-    "status": "down",
-    "uptime": "75.21%",
-    "uptimeDay": "75.21%",
-    "uptimeWeek": "75.21%",
-    "uptimeMonth": "75.21%",
-    "uptimeYear": "75.21%",
+    "slug": "test-probe-v2-notification-test",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {
-      "2026-06-30": 45
-    }
+    "dailyMinutesDown": {}
   }
 ]
