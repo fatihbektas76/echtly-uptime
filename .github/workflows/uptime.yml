@@ -18,3 +18,12 @@ jobs:
           command: "update"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+          # SMTP-Credentials fuer Email-Notifications. Werden via
+          # .upptimerc.yml als $NOTIFICATION_EMAIL_* referenziert —
+          # mussten als ENV durchgereicht werden, sonst expandiert
+          # Upptime die Strings nicht und sendet still kein Mail.
+          NOTIFICATION_EMAIL_SMTP: ${{ secrets.NOTIFICATION_EMAIL_SMTP }}
+          NOTIFICATION_EMAIL_SMTP_USERNAME: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
+          NOTIFICATION_EMAIL_SMTP_PASSWORD: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
+          NOTIFICATION_EMAIL_TO: ${{ secrets.NOTIFICATION_EMAIL_TO }}
+          NOTIFICATION_EMAIL_FROM: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
