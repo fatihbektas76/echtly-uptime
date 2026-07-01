@@ -26,7 +26,7 @@ sites:
     expectedStatusCodes:
       - 200
   - name: TEST-PROBE-V2 (Notification-Test)
-    url: https://sign.echtly.de/
+    url: https://sign.echtly.de/probe-404-2026-07-01
     expectedStatusCodes:
       - 200
 
